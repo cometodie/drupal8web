@@ -1,0 +1,46 @@
+header.navbar {
+  background:  #435c72;
+  padding: 10px 0;
+}
+.block-title{
+  color:#fff;
+  //margin-bottom:20px;
+  line-height: 50px;
+}
+.navbar-nav > li > a{
+  color:#fff;
+}
+ul.menu{
+  line-height: 80px;
+  text-align: right;
+  float: right;
+
+  li{
+    height:50px;
+    line-height: 50px;
+    float: none;
+    display: inline-block;
+
+    a{
+      transition: .2s;
+      padding: 15px;
+    }
+    a:hover{
+      color:#000;
+      transition: .2s;
+    }
+  }
+}
+.navbar-toggle{
+  margin-top:-50px;
+}
+.logo{
+  color:#fff;
+  font-size: 32px;
+  transition: .3s;
+}
+.logo:hover{
+  color:#f2f1eb;
+  text-decoration: none;
+  transition: .3s;
+}

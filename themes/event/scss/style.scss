@@ -1,0 +1,28 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+$mobile:          "screen and (max-width: #{$screen-xs-max})";
+$tablet:          "screen and (min-width: #{$screen-sm-min})";
+$normal:          "screen and (min-width: #{$screen-md-min})";
+$wide:            "screen and (min-width: #{$screen-lg-min})";
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet');
+
+// Base-theme overrides.
+@import 'overrides';
+
+// Blocks
+@import 'blocks/search';
+
+//Header
+@import "component/header";
+
+//Frontpage
+@import "pages/frontpage";
+
+//Event
+@import "blocks/event";

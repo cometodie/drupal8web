@@ -1,0 +1,23 @@
+{
+  "name": "zurb_foundation",
+  "version": "0.0.3",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-copy": "^0.0.2",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-util": "^3.0.7",
+    "rimraf": "*"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass",
+    "postinstall": "rimraf node_modules/**/*.info"
+  },
+  "private": true,
+  "description": "ZURB FOUNDATION 6 - DRUPAL 8 RELEASE ====================================",
+  "main": "gulpfile.js",
+  "author": "",
+  "license": "ISC"
+}
